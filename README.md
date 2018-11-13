@@ -57,4 +57,4 @@ Got Test accuracy of 96.9%.. Below is Test confusion Matrix.
 | ------------- |-------------|
 | LSTM      | 91.99 |
 | CNN      | 92.3      | 
-| Divide and Conquer-Based with CNN      | 96.9      | 
+| Divide and Conquer-Based with CNN      | <b>96.9</b>      | 
