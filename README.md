@@ -37,4 +37,24 @@ Tried CNN wit 1d Conv and tuned hyperparameters with Hyperas. Got best test accu
 ![CNN](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN/blob/master/Images/output_163_3.png "CNN")
 4. <b> Divide and Conquer-Based with 1D CNN for Raw series Data </b>  
  - in Data exploration section we observed that we can divide the data into dynamic and static type so divided walking,waling_upstairs,walking_downstairs into category 0 i.e Dynamic, sitting, standing, laying into category 1 i.e. static.
- - used 2 more classifiers seperatly for classifying classes of dynamic and static activities. so that model can learn differnt features for static and dynamic activities.
+ - used 2 more classifiers seperatly for classifying classes of dynamic and static activities. so that model can learn differnt features for static and dynamic activities as below  
+ ![Divide and Conquer-Based with 1D CNN](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN/blob/master/Images/Divide%20and%20conqure%20CNN.png "Divide and Conquer-Based with 1D CNN")
+Build these 3 cnn models , Tuned hyperparmeters and written prediction pipeline. you can check my entire results in above [ipynb notebook](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN/blob/master/Human%20Activity%20Detection.ipynb).
+Got Test accuracy of 96.9%.. Below is Test confusion Matrix.
+![Divide and Conquer-Based with 1D CNN](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN/blob/master/Images/output_244_0.png "Divide and Conquer-Based with 1D CNN")  
+### Results:  
+##### With Handcoded 561 Features and Machine Learning Algorithms
+| Algorithm        | Test Accuracy % | 
+| ------------- |-------------|
+| Logistic Regression      | 96.3 |
+| Linear SVC      | 96.5      | 
+| rbf SVM classifier      | 96.27      | 
+| DecisionTree      | 86.39      | 
+| Random Forest      | 91.08      | 
+| GradientBoosting DT      | 92.63      | 
+##### With Raw Series data and Deep Learning Algorithms  
+| Algorithm        | Accuracy % | 
+| ------------- |-------------|
+| LSTM      | 91.99 |
+| CNN      | 92.3      | 
+| Divide and Conquer-Based with CNN      | 96.9      | 
