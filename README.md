@@ -53,7 +53,7 @@ Got Test accuracy of 96.9%.. Below is Test confusion Matrix.
 | Random Forest      | 91.08      | 
 | GradientBoosting DT      | 92.63      | 
 ##### With Raw Series data and Deep Learning Algorithms  
-| Algorithm        | Accuracy % | 
+| Algorithm        | Test Accuracy % | 
 | ------------- |-------------|
 | LSTM      | 91.99 |
 | CNN      | 92.3      | 
