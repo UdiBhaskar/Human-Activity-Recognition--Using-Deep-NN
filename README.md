@@ -58,3 +58,8 @@ Got Test accuracy of 96.9%.. Below is Test confusion Matrix.
 | LSTM      | 91.99 |
 | CNN      | 92.3      | 
 | Divide and Conquer-Based with CNN      | <b>96.9</b>      | 
+
+References:
+1. Deep Learning Models for Human Activity Recognition by machinelearningmastery.com
+2. Applied Ai Course
+3. Divide and Conquer-Based 1D CNN Human Activity Recognition Using Test Data Sharpening [paper]( https://www.mdpi.com/1424-8220/18/4/1055/pdf )
