@@ -39,7 +39,7 @@ Tried CNN wit 1d Conv and tuned hyperparameters with Hyperas. Got best test accu
  - in Data exploration section we observed that we can divide the data into dynamic and static type so divided walking,waling_upstairs,walking_downstairs into category 0 i.e Dynamic, sitting, standing, laying into category 1 i.e. static.
  - used 2 more classifiers seperatly for classifying classes of dynamic and static activities. so that model can learn differnt features for static and dynamic activities as below  
  ![Divide and Conquer-Based with 1D CNN](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN/blob/master/Images/Divide%20and%20conqure%20CNN.png "Divide and Conquer-Based with 1D CNN")
-Build these 3 cnn models , Tuned hyperparmeters and written prediction pipeline. you can check my entire results in above [ipynb notebook](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN/blob/master/Human%20Activity%20Detection.ipynb).
+Trained these 3 cnn models , Tuned hyperparmeters and written prediction pipeline. you can check my entire results in above [ipynb notebook](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN/blob/master/Human%20Activity%20Detection.ipynb).
 Got Test accuracy of 96.9%.. Below is Test confusion Matrix.
 ![Divide and Conquer-Based with 1D CNN](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN/blob/master/Images/output_244_0.png "Divide and Conquer-Based with 1D CNN")  
 ### Results:  
