@@ -9,6 +9,7 @@ For each record in the dataset it is provided:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label.(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 - An identifier of the subject who carried out the experiment.
+You can check my Total work in [ipynb note book](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN/blob/master/Human%20Activity%20Detection.ipynb) and [github link](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN)
 ### Some Analysis findings:
 - No of Datapoints per Activity  
 ![No of Datapoints per Activity](https://github.com/UdiBhaskar/Human-Activity-Recognition--Using-Deep-NN/blob/master/Images/output_28_0.png "No of Datapoints per Activity")  
